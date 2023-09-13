@@ -76,7 +76,7 @@ export const POST = async (request) => {
     );
   }
 
-  //if role is "ADMIN", send the following response
+  //if role is "ADMIN", send the following response.
   if (role === "ADMIN") {
     return NextResponse.json(
       {
